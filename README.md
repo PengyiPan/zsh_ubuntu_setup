@@ -1,4 +1,4 @@
-Ubuntu 20.04 personal zsh setup
+Ubuntu 20.04 LTS personal zsh setup
 
 ## Install zsh + 3 plugins
 
@@ -9,9 +9,9 @@ sudo apt install zsh zsh-syntax-highlighting zsh-autosuggestions autojump
 ## Install config file + alias + theme
 
 ```bash
-wget https://github.com/ChrisTitusTech/zsh/raw/master/.zshrc -O ~/.zshrc
+wget https://raw.githubusercontent.com/PengyiPan/zsh_ubuntu_setup/master/.zshrc -O ~/.zshrc
 mkdir -p "$HOME/.zsh"
-wget https://github.com/ChrisTitusTech/zsh/raw/master/.zsh/aliasrc -O ~/.zsh/aliasrc
+wget https://raw.githubusercontent.com/PengyiPan/zsh_ubuntu_setup/master/.aliasrc -O ~/.zsh/aliasrc
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
 
